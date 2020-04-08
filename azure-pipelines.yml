@@ -11,7 +11,8 @@ steps:
     script: |
       echo Write your commands here
       
-      echo Hello world
+      echo zeig den pfad vom agent im linux
+      pwd
 
 - task: UseDotNet@2
   displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
